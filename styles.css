@@ -1,0 +1,45 @@
+body {
+  margin: 30px 0;
+  background:#fcebeb;
+  font-family: 'Brygada 1918', serif;
+  line-height:2em;
+  font-size: 1.5vw;
+
+}
+@media (max-width:720px){
+  #bio{
+    width: 90%;
+    background: crimson;
+  }
+}
+
+#image {
+  max-width: 70%;
+}
+
+figcaption{
+  font-size: 1.4vw;
+  margin-top: 0;
+}
+
+#img-div,
+h1,
+p,
+figcaption{
+  text-align: center;
+  font-weight:bolder;
+}
+
+#bio {
+  padding: 1%;
+  margin: auto;
+  width: 70%;
+  background:#c7d8f7
+}
+
+li{
+  margin: 1em;
+}
+strong{
+  text-decoration: underline;
+}
